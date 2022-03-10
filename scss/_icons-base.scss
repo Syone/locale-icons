@@ -1,0 +1,32 @@
+.lcb {
+	background-size: contain;
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+
+.lc {
+	@extend .lcb;
+	position: relative;
+	display: inline-block;
+	width: 1.333333 * 1em;
+	line-height: 1em;
+
+	&:before {
+		content: '\00a0';
+	}
+}
+
+.lcs{
+	@extend .lc;
+	width: 1em;
+}
+
+@mixin locale-icon($locale) {
+	.lc-#{$locale} {
+		background-image: url(#{$locale-icons-path}#{$locale-icons-rect-path}/#{$locale}.svg);
+
+		&.lcs {
+			background-image: url(#{$locale-icons-path}#{$locale-icons-square-path}/#{$locale}.svg);
+		}
+	}
+}

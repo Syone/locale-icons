@@ -1,0 +1,21 @@
+{
+	"name": "locale-icons",
+	"version": "1.0.0",
+	"author": "Syone <syone7@gmail.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/syone/locale-icons"
+	},
+	"devDependencies": {
+		"autoprefixer": "^9.8.6",
+		"gulp": "^4.0.2",
+		"gulp-concat": "^2.6.1",
+		"gulp-postcss": "^8.0.0",
+		"gulp-remote-src": "^0.4.3",
+		"gulp-sass": "^5.0.0",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-uglify": "^3.0.2",
+		"sass": "^1.36.0"
+	}
+}

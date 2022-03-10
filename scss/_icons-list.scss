@@ -1,0 +1,3 @@
+@each $locale in $locales {
+	@include locale-icon($locale);
+}
