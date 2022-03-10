@@ -8,6 +8,10 @@ Ok flags are not languages but sometimes we may want to associate an icon to a l
 
 ### Include the css from the CDN
 
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/syone/locale-icons/css/icons.css">
+```
+
 ### Use css class
 
 Exemple:
